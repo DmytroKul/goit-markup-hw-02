@@ -1,7 +1,6 @@
 body {
   background: #fff;
   font-family: 'Roboto', sans-serif;
-  margin: 0;
 }
 
 html {
@@ -173,7 +172,7 @@ a {
   line-height: 60px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   color: #ffffff;
 }
 
@@ -188,7 +187,7 @@ a {
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
-  padding: 12px 32px;
+  padding: 10px 28px;
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
@@ -425,13 +424,13 @@ a {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: calc(16 / 12);
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
 }
 .button-filters:focus {
-  background-color: #2196f3;
+  background-color: var(--accent-color);
   color: #fff;
 }
 .button-filters:hover {
