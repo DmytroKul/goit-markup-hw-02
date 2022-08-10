@@ -1,15 +1,13 @@
 body {
   background: #fff;
   font-family: 'Roboto', sans-serif;
+  margin: 0;
 }
 
-html {
-  box-sizing: border-box;
-}
 *,
-*:before,
-*:after {
-  box-sizing: inherit;
+::before,
+::after {
+  box-sizing: border-box;
 }
 
 :root {
@@ -180,7 +178,7 @@ a {
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
-  padding: 10px 28px;
+  padding: 10px 32px;
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
@@ -205,6 +203,7 @@ a {
 }
 
 /* section */
+/* pic */
 
 /* Seconns section */
 
@@ -275,6 +274,10 @@ a {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
+}
+
+.pic {
+  display: block;
 }
 
 /* our  team */
@@ -389,18 +392,21 @@ a {
   line-height: 24px;
   letter-spacing: 0.03em;
 }
+.address-color {
+  color: #ffffff;
+}
 
 /* portfolio */
 
 .filters-list {
   display: flex;
-  justify-content: center;
+
   width: 575px;
   height: 54px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 94px;
-  margin-bottom: 54px;
+  margin-bottom: 34px;
 }
 
 .filters-list li:nth-child(n + 2) {
@@ -408,6 +414,8 @@ a {
 }
 
 .button-filters {
+  display: inline-block;
+  padding: 6px 22px;
   border: none;
   cursor: pointer;
 
@@ -519,5 +527,3 @@ a {
   width: 370px;
   height: 404px;
 }
-
-/*  */
